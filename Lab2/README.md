@@ -20,7 +20,7 @@ GREEN、INGIDO相对BLUE来定位
 
 ## [**activity_main.xml**](https://github.com/zhanshiping/MyAndroid/blob/master/Lab2/TableLayout/app/src/main/res/layout/activity_main.xml)
 
-使用 <TableRow>一行一行来写，XX在0列。"Open..."、"Save..."、
+使用 TableRow一行一行来写，XX在0列。"Open..."、"Save..."、
 
 "Save As..."、"Import..."、"Export..."、"Quit"、"Quit"在第一列。
 
