@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RED"
+        android:text="RED"
+        android:background="#f00"
+        android:gravity="center"
+        android:textColor="#000"
+        android:padding="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ORANGE"
+        android:text="ORANGE"
+        android:background="#ffa500"
+        android:gravity="center"
+        android:textColor="#000"
+        android:padding="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/YELLOW"
+        android:text="YELLOW"
+        android:background="#ffff00"
+        android:gravity="center"
+        android:textColor="#000"
+        android:padding="25dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BLUE"
+        android:text="BLUE"
+        android:background="#00f"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:padding="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/GREEN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:background="#0f0"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="GREEN"
+        android:textColor="#000"
+        app:layout_constraintRight_toLeftOf="@id/BLUE"
+        app:layout_constraintTop_toTopOf="@id/BLUE" />
+
+    <TextView
+        android:id="@+id/INGIDO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:background="#4b0082"
+        android:gravity="center"
+        android:padding="25dp"
+        android:text="INGIDO"
+        android:textColor="#fff"
+        app:layout_constraintLeft_toRightOf="@id/BLUE"
+        app:layout_constraintTop_toTopOf="@id/BLUE" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/VIOLET"
+        android:text="VIOLET"
+        android:background="#ee82ee"
+        android:gravity="center"
+        android:textColor="#000"
+        android:padding="25dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
